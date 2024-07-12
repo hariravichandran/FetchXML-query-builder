@@ -10,8 +10,8 @@ The `XMLQueryBuilder` class allows you to build FetchXML queries using a Pandas-
 1. **Clone the repository:** 
 
 ```bash
-git clone https://github.com/yourusername/xmlquerybuilder.git
-cd xmlquerybuilder
+git clone https://github.com/hariravichandran/FetchXML-query-builder.git
+cd FetchXML-query-builder
 ```
  
 2. **Install the package:** 
