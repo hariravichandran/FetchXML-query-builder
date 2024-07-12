@@ -283,13 +283,12 @@ XMLQueryBuilder is a tool to build FetchXML queries using a Pandas-like syntax.
 Clone the repository and install the package:
 
 ```bash
-git clone https://github.com/yourusername/xmlquerybuilder.git
-cd xmlquerybuilder
+git clone https://github.com/hariravichandran/FetchXML-query-builder.git
+cd FetchXML-query-builder
 pip install .
 ```
 
 ## Usage 
-
 
 ```python
 from xml_query_builder import XMLQueryBuilder
@@ -310,44 +309,16 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
-
-```Copy code
-Copy code
-```
- 
-5. **Create `LICENSE`:** 
-Choose a license that suits your project, for example, MIT License.
-
-
-```text
-MIT License
-
-...
-```
- 
-6. **Create `__init__.py` in the package directory:** 
-
-```python
-from .xml_query_builder import XMLQueryBuilder
-```
  
 7. **Build the package:** 
 
 ```bash
 python setup.py sdist bdist_wheel
 ```
- 
-8. **Upload to PyPI (optional):** If you want to distribute your package via PyPI, you can use `twine` to upload it.
-
-```bash
-twine upload dist/*
-```
 
 ### Running the Example 
 
 After installing the package, you can run the example by creating a Python script and executing it:
-
 
 ```python
 from xml_query_builder import XMLQueryBuilder
